@@ -1,0 +1,80 @@
+body {
+	--radius-s: 5px;
+	--radius-m: 8px;
+	--radius-l: 12px;
+	--input-radius: 5px;
+	--tab-radius: 5px;
+	--checkbox-radius: 10px;
+	--toggle-radius: 10px;
+	--toggle-thumb-radius: 10px;
+	--slider-thumb-radius: 10px;
+}
+
+.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+	display: none;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.theme-dark {
+  --background-primary: #2c3746;
+  --background-secondary: #293240;
+  --ribbon-background: #293240;
+  --titlebar-background-focused: #2c3746;
+  --scrollbar-thumb-bg: #f77067;
+  --scrollbar-active-thumb-bg: #b56969;
+  --tab-divider-color: #1e2530;
+  --tab-outline-color: #485b74;
+  --divider-color: #485b74;
+  --dropdown-background: #293240;
+  --dropdown-background-hover: #2c3746;
+  --slider-track-background: #f77067;
+  --nav-item-color-hover: #b56969;
+  --nav-item-color-active: #f77067;
+  --nav-item-background-hover: #2c3746;
+  --nav-item-background-active: #2c3746;
+  --nav-indentation-guide-color: #485b74;
+  --nav-collapse-icon-color: #485b74;
+  --nav-collapse-icon-color-collapsed: #485b74;
+  --background-modifier-hover: #b56969;
+  --interactive-normal: #293240;
+  --interactive-hover: #f77067;
+  --modal-border-color: #485b74;
+  --text-accent: #f77067;
+  --background-modifier-border: #485b74;
+  --background-modifier-border-focus: #f77067;
+  --background-modifier-form-field: #1e2530;
+}
+
+.checkbox-container {
+  background-color: #293240;
+}
+
+/* HR Horizontal Rule LIVE PREVIEW */
+.markdown-source-view.mod-cm6 hr {
+  border-top: 1px solid;
+  border-color: #f77067;
+}
+
+/* HR Horizontal Rule READING VIEW */
+.markdown-preview-view hr {
+  border-top: 1px solid;
+  border-color: #f77067;
+}
