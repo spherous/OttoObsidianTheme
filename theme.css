@@ -30,6 +30,10 @@ svg * {
 .theme-dark {
 	--background-primary: #2c3746;
 	--background-secondary: #293240;
+    --background-modifier-hover: #b56969;
+    --background-modifier-border: #485b74;
+	--background-modifier-border-focus: #f77067;
+	--background-modifier-form-field: #1e2530;
 	--ribbon-background: #293240;
 	--titlebar-background-focused: #2c3746;
 	--scrollbar-thumb-bg: #f77067;
@@ -47,14 +51,10 @@ svg * {
 	--nav-indentation-guide-color: #485b74;
 	--nav-collapse-icon-color: #485b74;
 	--nav-collapse-icon-color-collapsed: #485b74;
-	--background-modifier-hover: #b56969;
 	--interactive-normal: #293240;
 	--interactive-hover: #f77067;
 	--modal-border-color: #485b74;
 	--text-accent: #f77067;
-	--background-modifier-border: #485b74;
-	--background-modifier-border-focus: #f77067;
-	--background-modifier-form-field: #1e2530;
 	--bases-table-cell-background-disabled:#1e2530;
 	--metadata-property-background: #293240;
 	--metadata-property-background-hover: #1e2530;
@@ -62,6 +62,8 @@ svg * {
 	--metadata-input-background-active: #2c3746;
 	--metadata-label-background-active: #2c3746;
     --caret-color: #f77067;
+    --code-background: #1e2530;
+    --callout-title-color: #f77067;
 }
 
 .checkbox-container {
