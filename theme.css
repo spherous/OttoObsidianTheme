@@ -1,7 +1,4 @@
 body {
-	--radius-s: 5px;
-	--radius-m: 8px;
-	--radius-l: 12px;
 	--input-radius: 5px;
 	--tab-radius: 5px;
 	--checkbox-radius: 10px;
@@ -64,6 +61,7 @@ svg * {
 	--metadata-property-background-active: #293240;
 	--metadata-input-background-active: #2c3746;
 	--metadata-label-background-active: #2c3746;
+    --caret-color: #f77067;
 }
 
 .checkbox-container {
